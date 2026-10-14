@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* main {
@@ -9,27 +9,29 @@ body {
 } */
 
 .article-container {
-    position: relative;
-    width: 100%;
+  position: relative; /* it just adds the ability to nudge the spaces with top, left, right, bottom*/
+  width: 100%;
 }
 
 .sticky-media {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    height: 70vh;
-    z-index: 1;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 70vh;
+  z-index: 1;
 }
 .sticky-media img {
-    width: 100%;
-    height: 100%;
-    /* object-fit: contain; */
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
 }
 
 .content {
-    position: relative;
-    z-index: 2;
-    background-color: #ffffff;
-    padding: 2rem;
-    /* min-height: 150vh; */
+  position: relative;
+  z-index: 2;
+  background-color: #ffffff;
+  padding: 2rem;
+  /* min-height: 150vh; */
 }
+
+/* For your page, both work. sticky is usually the tidier choice for this kind of effect because it needs less code and cleans up after itself when the section ends. fixed is better for things that should never move at all, like a navigation bar or a chat button. */
