@@ -6,7 +6,7 @@ body {
 }
 
 @font-face {
-    font-family: "FormaDJRText", sans-serif;
+    font-family: "FormaDJRText";
     src: url("fonts/FormaDJRText.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
@@ -14,12 +14,13 @@ body {
 }
 
 @font-face {
-    font-family: "OO Theran", sans-serif;
+    font-family: "OO Theran";
     src: url("fonts/OO\ Theran.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
 
 
 /* main {
@@ -52,6 +53,22 @@ body {
   padding: 2rem;
   /* min-height: 150vh; */
 }
+
+.logo {
+    position: absolute;
+    font-family: "OO Theran", sans-serif;
+    color: white;
+    padding-left: auto;
+    padding-right: auto;  
+}
+
+
+
+
+
+
+
+
 
 /* For your page, both work. sticky is usually the tidier choice for this kind of effect because it needs less code and cleans up after itself when the section ends. fixed is better for things that should never move at all, like a navigation bar or a chat button. */
 
