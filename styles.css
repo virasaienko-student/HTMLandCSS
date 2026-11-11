@@ -1,83 +1,57 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "FormaDJRText", sans-serif;
-  letter-spacing: 0.030rem;
-
+    background-color: #800080; /* purple */
 }
 
-@font-face {
-    font-family: "FormaDJRText";
-    src: url("fonts/FormaDJRText.woff2") format("woff2");
-    font-weight: normal;
+
+p {
+    /* color: #FFAAAA; */
+    color: #ffb6c1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    color: #FFFFCF;
+    font-style: italic;
+    /* text-align: right; */
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 159px;
+    color: #ffffff;
     font-style: normal;
-    font-display: swap;
 }
 
-@font-face {
-    font-family: "OO Theran";
-    src: url("fonts/OO\ Theran.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+h2 {
+    color: #000000;
 }
 
 
-
-/* main {
-    margin: 10px;
-    padding: 10px;
-} */
-
-.article-container {
-  position: relative; /* it just adds the ability to nudge the spaces with top, left, right, bottom*/
-  width: 100%;
+.special {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
 }
 
-.sticky-media {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  height: 70vh;
-  z-index: 1;
-}
-.sticky-media img {
-  width: 100%;
-  height: 100%;
-  /* object-fit: contain; */
+ul {
+    list-style-type: square;
 }
 
-.content {
-  position: relative;
-  z-index: 2;
-  background-color: #ffffff;
-  padding: 2rem;
-  /* min-height: 150vh; */
+ol {
+    list-style-type: upper-roman;
 }
 
-.logo {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 1rem;
-    /* right: 0; */
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    text-align: center;
-    font-family: "OO Theran", sans-serif;
-    color: white;
-    /* padding-left: auto;
-    padding-right: auto;   */
+li {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
 }
 
+.fave {
+    color:#ff5000;
+}
 
-
-
-
-
-
-
-
-/* For your page, both work. sticky is usually the tidier choice for this kind of effect because it needs less code and cleans up after itself when the section ends. fixed is better for things that should never move at all, like a navigation bar or a chat button. */
-
-
+.pizza-image{
+    
+}
