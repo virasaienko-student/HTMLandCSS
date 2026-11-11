@@ -1,29 +1,30 @@
 body {
     background-color: #800080; /* purple */
+    font-family: monospace;
 }
 
 
 p {
     /* color: #FFAAAA; */
-    color: #ffb6c1;
+    color: #FFFFCF ;
 }
 
 h1, h2, h3, h4, h5, h6 {
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    color: #FFFFCF;
+    color: #f1e0e0;
     font-style: italic;
     /* text-align: right; */
 }
 
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 159px;
+    font-size: 7em;
     color: #ffffff;
     font-style: normal;
 }
 
 h2 {
-    color: #000000;
+    color: #f1e0e0;
 }
 
 
@@ -46,12 +47,71 @@ li {
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
+    /* position: relative; */
 }
 
 .fave {
-    color:#ff5000;
+    color: black;
+    background-color: #ffff00;
+    width: fit-content;
 }
 
+/* .fave::before {
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffff00;
+    font-size: 15px;
+    font-style: italic;
+} */
+
 .pizza-image{
-    
+    width: 50%;
+}
+
+
+a {
+    color: white;
+}
+
+
+
+/* cake page */
+
+
+.cake-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section-one{
+    border: 1px solid white;
+    background-color:#403080;
+}
+
+.caption {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cake-item {
+    border: 1px dashed #FFF200;
+    width: 100%;
+}
+
+.cake-group {
+    border: 2px solid #008000;
+    width: 275px;
 }

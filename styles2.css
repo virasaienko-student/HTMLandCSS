@@ -1,83 +1,16 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "FormaDJRText", sans-serif;
-  letter-spacing: 0.030rem;
+section { 
+    padding: 8px 0px 0px 0px;
+} 
 
+.section-two {
+    padding: 6px 2px 2px 8px;
+    background-color: deepskyblue;
+} 
+.cake-poster-item {
+    border: 1px solid yellow; 
+    display: flex; 
+    flex-wrap: wrap;
+    width: 40%;   
+    padding: 10px; 
 }
-
-@font-face {
-    font-family: "FormaDJRText";
-    src: url("fonts/FormaDJRText.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "OO Theran";
-    src: url("fonts/OO\ Theran.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-
-/* main {
-    margin: 10px;
-    padding: 10px;
-} */
-
-.article-container {
-  position: relative; /* it just adds the ability to nudge the spaces with top, left, right, bottom*/
-  width: 100%;
-}
-
-.sticky-media {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  height: 70vh;
-  z-index: 1;
-}
-.sticky-media img {
-  width: 100%;
-  height: 100%;
-  /* object-fit: contain; */
-}
-
-.content {
-  position: relative;
-  z-index: 2;
-  background-color: #ffffff;
-  padding: 2rem;
-  /* min-height: 150vh; */
-}
-
-.logo {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 1rem;
-    /* right: 0; */
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    text-align: center;
-    font-family: "OO Theran", sans-serif;
-    color: white;
-    /* padding-left: auto;
-    padding-right: auto;   */
-}
-
-
-
-
-
-
-
-
-
-/* For your page, both work. sticky is usually the tidier choice for this kind of effect because it needs less code and cleans up after itself when the section ends. fixed is better for things that should never move at all, like a navigation bar or a chat button. */
-
 
